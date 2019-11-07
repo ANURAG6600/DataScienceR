@@ -21,7 +21,7 @@ colnames(data.fram)[x] = "newname"
 qplot(dataframe$whatevercolumn, dataframe$whatevercolumn, color = dataframe$factor)
 
 #Pretty Histograms
-ggplot(data.frame, aes(x = datacolumm, fill = factorcolumn)) + geom_bar()
+ggplot(data.frame, aes(x = datacolumm, fill = factorcolumn)) + geom_histogram()
 
 #Standard Deviation of column 
 sapply(dataframe$column, sd)
